@@ -2,16 +2,16 @@ import 'package:movie_app/data/models/movie_model.dart';
 
 class MoviesResultModel {
   int page;
-  List<MovieModel> results;
+  List<MovieModel> movies;
 
-  MoviesResultModel({this.page, this.results});
+  MoviesResultModel({this.page, this.movies});
 
   MoviesResultModel.fromJson(Map<String, dynamic> json) {
     page = json['page'];
     if (json['results'] != null) {
-      results = new List<MovieModel>();
+      movies = new List<MovieModel>();
       json['results'].forEach((v) {
-        results.add(new MovieModel.fromJson(v));
+        movies.add(new MovieModel.fromJson(v));
       });
     }
   }
@@ -19,8 +19,8 @@ class MoviesResultModel {
   Map<String, dynamic> toJson() {
     final Map<String, dynamic> data = new Map<String, dynamic>();
     data['page'] = this.page;
-    if (this.results != null) {
-      data['results'] = this.results.map((v) => v.toJson()).toList();
+    if (this.movies != null) {
+      data['results'] = this.movies.map((v) => v.toJson()).toList();
     }
     return data;
   }
