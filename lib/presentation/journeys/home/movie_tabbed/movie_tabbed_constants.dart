@@ -1,9 +1,10 @@
+import 'package:movie_app/common/constants/translation_constants.dart';
 import 'package:movie_app/presentation/journeys/home/movie_tabbed/tab.dart';
 
 class MovieTabbedConstants {
   static const movieTabs = <Tab>[
-    Tab(index: 0, title: 'Popular'),
-    Tab(index: 1, title: 'Now'),
-    Tab(index: 2, title: 'Soon'),
+    Tab(index: 0, title: TranslationConstants.popular),
+    Tab(index: 1, title: TranslationConstants.now),
+    Tab(index: 2, title: TranslationConstants.soon),
   ];
 }
