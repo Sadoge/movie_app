@@ -1,5 +1,5 @@
 # movie_app
-Movie app in Flutter
+Movie (with TMDB api) app made Flutter (using BLOC pattern)
 
 This app is made with [Flutter](https://flutter.dev/docs/get-started/install) using BLOC statemanagement
 
