@@ -5,5 +5,7 @@
     "about": "Over",
     "popular": "POPULAIR",
     "now": "NU",
-    "soon": "BINNENKORT"
+    "soon": "BINNENKORT",
+    "okay": "Ok",
+    "aboutDescription": "Dit product gebruikt de TMDB API maar wordt er niet door ondersteund"
 }
