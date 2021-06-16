@@ -1,3 +1,4 @@
+import 'package:device_preview/device_preview.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
@@ -44,6 +45,7 @@ class _MovieAppState extends State<MovieApp> {
               navigatorKey: _navigatorKey,
               languageCode: state.locale.languageCode,
               child: MaterialApp(
+                builder: DevicePreview.appBuilder,
                 navigatorKey: _navigatorKey,
                 debugShowCheckedModeBanner: false,
                 title: 'Movie App',
