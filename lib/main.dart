@@ -1,4 +1,4 @@
-import 'package:flutter/foundation.dart';
+//import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:movie_app/presentation/movie_app.dart';
@@ -13,7 +13,7 @@ void main() async {
   unawaited(getIt.init());
   runApp(
     DevicePreview(
-      enabled: !kReleaseMode,
+      enabled: false, //!kReleaseMode,
       builder: (context) => MovieApp(),
     ),
   );

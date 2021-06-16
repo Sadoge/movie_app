@@ -7,5 +7,9 @@
     "now": "NU",
     "soon": "BINNENKORT",
     "okay": "Ok",
-    "aboutDescription": "Dit product gebruikt de TMDB API maar wordt er niet door ondersteund"
+    "aboutDescription": "Dit product gebruikt de TMDB API maar wordt er niet door ondersteund",
+    "somethingWentWrong": "Er is iets fout gegaan...",
+    "checkNetwork": "Check uw netwerk connectie en druk de Probeer opniew knop or rapporteer het als een bug met de Feedback knop",
+    "retry": "Probeer opnieuw",
+    "noMovies": "Sorry, deze sectie bevat geen films"
 }

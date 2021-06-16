@@ -7,5 +7,9 @@
     "now": "NOW",
     "soon": "SOON",
     "okay": "Okay",
-    "aboutDescription": "This product uses the TMDB API but is not endorsed by it"
+    "aboutDescription": "This product uses the TMDB API but is not endorsed by it",
+    "somethingWentWrong": "Something went wrong...",
+    "checkNetwork": "Please check your network connection and press Retry button or report it as a bug by pressing the Feedback button.",
+    "retry": "Retry",
+    "noMovies": "Sorry, no movies under this section"
 }
